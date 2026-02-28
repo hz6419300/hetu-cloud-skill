@@ -1,0 +1,4 @@
+interface:
+  display_name: "E2E Java One-Click Report"
+  short_description: "Scaffold Java E2E tests with one-click flow and Markdown report"
+  default_prompt: "For hetu-cloud only: create or update a Java 21 Maven E2E test project that follows the Stepper + RunReport one-click pattern (writes target/full-flow-one-click-report.md in finally). Generate per-controller clients, payload factories, smoke/endpoint/fullchain tests, and ensure mvn -q -DskipTests test-compile passes."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Proto → Backend Spec"
+  short_description: "Create backend spec from prototype PRD with conflict Q&A"
+  default_prompt: "For hetu-cloud: take a raw prototype/PRD (txt/md) and (1) generate a conflict Q&A clarification doc with numbered questions for me to answer, then (2) generate a backend-focused requirement spec (data model, enums, validation rules, state flows, API list) based on the raw doc + answers. Before (2), verify the Q&A has no empty answers (or mark them as TBD) and include a Decision Log summarizing the final conclusions for Q1/Q2/..."
